@@ -60,7 +60,7 @@ const Sidebar = ({ isCollapsed, setIsCollapsed, setActivePage }) => {
         <img src="/cmstlogo.png" alt="Logo" className="h-10 w-auto" />
       </div>
 
-      {/* Menu Items */}
+  
       <div className="flex-1 space-y-1 px-1">
         {menuItems.map((item, index) => (
           <button
